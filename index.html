@@ -5,37 +5,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4330c4a6e2.js" crossorigin="anonymous"></script>
   <title>Organizador de projetos</title>
 </head>
 <body>
-  <div class="title-project">
+  <div class="create-project">
     <input type="text" placeholder="Digite o titilo do seu projeto">
     <button>Crie seu projeto</button>
+  </div>
+  <div class="title-project">
     <h1>Title Project</h1>
   </div>
+  <div class="create-task"><input type="text" placeholder="crie a sua tarefa"> <button><i class="fa-solid fa-plus"></i></button></div>
   <div class="lists-container">
     <div class="list to-do">
       <ul>
         <td>To do</td>
-        <li>to-do-task</li>
-        <li>to-do-task</li>
-        <li>to-do-task</li>
+        <li>to-do-task <i class="fa-solid fa-play"></i></li>
       </ul>
     </div>
     <div class="list doing">
       <ul>
         <td>Doing</td>
-        <li>doing-task</li>
-        <li>doing-task</li>
-        <li>doing-task</li>
+        <li>doing-task <i class="fa-solid fa-check"></i></li>
       </ul>
     </div>
     <div class="list done">
       <ul>
-        <td>Done</td>
-        <li>done-task</li>
-        <li>done-task</li>
-        <li>done-task</li>
+        <td class="title-list-done">Done</td>
+        <li>done-task <i class="fa-solid fa-trash"></i></li>
       </ul>
     </div>
   </div>
