@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #131B23;
+  background-color: #000;
   color: #fff;
 }
 
@@ -25,10 +25,17 @@ body {
 
 .create-project input{
   width: 500px;
+  border-radius: 10px;
+  background-color: black;
+  border: 1px solid #fff;
 }
 
 .create-project button {
   width: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 .title-project {
@@ -54,6 +61,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .list {
@@ -68,4 +76,12 @@ body {
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+
+input:focus {
+  outline: none;
+}
+
+.hide {
+  display: none;
 }
